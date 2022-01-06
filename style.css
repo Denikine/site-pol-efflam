@@ -1,6 +1,7 @@
 body {
 	vertical-align: baseline;
-	background-image: linear-gradient(rgba(0, 12, 25, 0.5), rgba(255, 2, 0, 0.5)),url("img/img_03.jpg");
+	/*background-image: linear-gradient(rgba(0, 12, 25, 0.5), rgba(255, 2, 0, 0.5)),url("img/img_03.jpg");*/
+	background-image: linear-gradient(rgba(0,0,0,0.6474964985994398), rgba(112,112,154,0.5522584033613445), rgba(158,158,158,1)),url("img/img_03.jpg");
 	background-attachment: fixed;
 	margin: 5% auto;
 	padding: auto;
