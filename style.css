@@ -67,7 +67,8 @@ div#galerie figure img {
 	background-color: rgba(255, 255, 128, .2);
 	width: 90%;
 	align-content: center;
-	border-radius: 10% / 50%;
+	border-radius: 5%;
+	/*border-radius: 10% / 50%;*/
 	/*border-radius: 50% 20% / 10% 40%;*/
 	margin: 5%;
 }
@@ -84,19 +85,17 @@ ul {
 }
 li {
  margin-left:2px;
- float:left; /*pour IE*/
+ float:left;
 }
 ul li a {
 	display:block;
 	float:left;   
 	width:100px;
  	background-color:#6495ED;
-	/*color:black;*/
 	text-decoration:none;
 	text-align:center;
 	padding:5px;
 	border:2px solid;
-	/*pour avoir un effet "outset" avec IE :*/
 	border-color:#DCDCDC #696969 #696969 #DCDCDC;
 	border-bottom: 1px solid #f2f2f2;
 	color: #f2f2f2;
@@ -113,4 +112,8 @@ ul li a:hover {
 	width: 100%;
 	margin: auto;
 	padding: auto;
+}
+
+h1{
+	font-size: 35px;
 }
