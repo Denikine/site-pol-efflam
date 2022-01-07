@@ -112,8 +112,10 @@ ul li a:hover {
 	width: 100%;
 	margin: auto;
 	padding: auto;
+	text-align: center;
 }
 
 h1{
 	font-size: 35px;
+	text-align: center;
 }
