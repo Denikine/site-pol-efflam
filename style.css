@@ -1,7 +1,9 @@
 body {
 	vertical-align: baseline;
-	/*background-image: linear-gradient(rgba(0, 12, 25, 0.5), rgba(255, 2, 0, 0.5)),url("img/img_03.jpg");*/
+	/*liner-gradient permet d'afficher un dégradé. chaque chiffre à l'intérieur indique dans l'ordre la quantité de rouge, de vert et de bleu, et le quatrième indique le degré de transparence*/
+	/*on ajoute l'image via son url*/
 	background-image: linear-gradient(rgba(0,0,0,0.6474964985994398), rgba(112,112,154,0.5522584033613445), rgba(158,158,158,1)),url("img/img_03.jpg");
+	/*permet de garder le fond fixe quand on scroll la page*/
 	background-attachment: fixed;
 	margin: 5% auto;
 	padding: auto;
@@ -9,7 +11,8 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.8;
-	text-shadow: 0 1px 0 #ffffff; max-width: 73%;
+	text-shadow: 0 .5px 0 #000000;
+	max-width: 73%;
 }
 code {
 	background: white;
@@ -17,6 +20,9 @@ code {
 h1{
 	font-size: 35px;
 	text-align: center;
+}
+h2{
+
 }
 ul {
  padding:0;
@@ -69,11 +75,14 @@ ul li a:hover {
 	padding: auto;
 }
 
-#menu{
+#haut_page{
 	text-align: center;
 	align-content: center;
 	margin: auto;
 	padding: auto;
+
+}
+.liens{
 
 }
 
