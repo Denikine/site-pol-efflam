@@ -2,7 +2,7 @@ body {
 	vertical-align: baseline;
 	/*liner-gradient permet d'afficher un dégradé. chaque chiffre à l'intérieur indique dans l'ordre la quantité de rouge, de vert et de bleu, et le quatrième indique le degré de transparence*/
 	/*on ajoute l'image via son url*/
-	background-image: linear-gradient(rgba(0,0,0,0.6474964985994398), rgba(112,112,154,0.5522584033613445), rgba(158,158,158,1)),url("img/img_03.jpg");
+	background-image: linear-gradient(rgba(158,158,158,1),rgba(112,112,154,0.5522584033613445), rgba(0,0,0,0.6474964985994398)),url("img/img_03.jpg");
 	/*permet de garder le fond fixe quand on scroll la page*/
 	background-attachment: fixed;
 	margin: 5% auto;
@@ -25,32 +25,29 @@ h2{
 
 }
 ul {
-	padding:0;
-	margin:0;
-	list-style-type:none;
+	list-style-type: none;
 }
 li {
-	margin-left:2px;
-	float:left;
+	margin: 10px;
 }
 ul li a {
-	display:block;
-	float:left;
-	width:100px;
- 	background-color:#6495ED;
-	text-decoration:none;
-	text-align:center;
-	padding:5px;
-	border:2px solid;
-	border-color:#DCDCDC #696969 #696969 #DCDCDC;
+	display: inline-block;
+	width: 20%;
+	height: 5%;
+ 	/*background-color: #6495ED;*/
+ 	background: linear-gradient(to top, #360033, #0b8793);
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid;
+	border-color: #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	color: #f2f2f2;
-	text-decoration: none;
 }
 ul li a:hover {
  	background-color:#D3D3D3;
- 	border-color:#696969 #DCDCDC #DCDCDC #696969;
-	border-bottom: 0;
+ 	border-color: #000000;
+ 	color: #000000;
 }
 
 /*a {
@@ -64,11 +61,13 @@ ul li a:hover {
 
 
 #conteneur {
-	background-color: rgba(255, 255, 128, .2);
+	/*background-color: rgba(255, 255, 128, .2);*/
+	/*background: linear-gradient(to top, #0f2027, #203a43, #2c5364);*/
+	background: linear-gradient(to top, #360033, #0b8793);
 	width: 90%;
 	align-content: center;
 	text-align: center;
-	border-radius: 5%;
+	border-radius: 1%;
 	/*border-radius: 10% / 50%;*/
 	/*border-radius: 50% 20% / 10% 40%;*/
 	margin: 5%;
@@ -76,10 +75,11 @@ ul li a:hover {
 }
 
 #haut_page{
-
+	padding: 5%;
+	margin: auto;
 }
-.liens{
-	width: 80%;
+.bouton{
+	width: 100%;
 	margin: auto;
 	padding: auto;
 }
@@ -148,10 +148,9 @@ div#galerie figure img {
 }
 
 #bas_page{
-	justify-content: center;
 	width: 60%;
+	padding: 5%;
 	margin: auto;
-	padding: auto;
 	text-align: center;
-	height:  100px;
+	height:  150px;
 }
