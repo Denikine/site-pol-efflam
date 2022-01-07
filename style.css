@@ -25,13 +25,13 @@ h2{
 
 }
 ul {
- padding:0;
- margin:0;
- list-style-type:none;
+	padding:0;
+	margin:0;
+	list-style-type:none;
 }
 li {
- margin-left:2px;
- float:left;
+	margin-left:2px;
+	float:left;
 }
 ul li a {
 	display:block;
@@ -76,14 +76,12 @@ ul li a:hover {
 }
 
 #haut_page{
-	text-align: center;
-	align-content: center;
-	margin: auto;
-	padding: auto;
 
 }
 .liens{
-
+	width: 80%;
+	margin: auto;
+	padding: auto;
 }
 
 #contenu{
@@ -119,14 +117,14 @@ div#galerie {
 }
 
 div#galerie figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  /*left: 0;*/
-  text-align: center;
-  animation: 15s galery infinite;
+	position: relative;
+	width: 500%;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	/*left: 0;*/
+	text-align: center;
+	animation: 15s galery infinite;
 }
 
 div#galerie figure img {
@@ -135,15 +133,18 @@ div#galerie figure img {
 	float: left;
 }
 @keyframes galery {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
-  75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+ 	100% { left: -400%; }
+}
+.catalogue{
+
 }
 
 #bas_page{
