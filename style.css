@@ -2,7 +2,8 @@ body {
 	vertical-align: baseline;
 	/*liner-gradient permet d'afficher un dégradé. chaque chiffre à l'intérieur indique dans l'ordre la quantité de rouge, de vert et de bleu, et le quatrième indique le degré de transparence*/
 	/*on ajoute l'image via son url*/
-	background-image: linear-gradient(rgba(158,158,158,1),rgba(112,112,154,0.5522584033613445), rgba(0,0,0,0.6474964985994398)),url("img/img_03.jpg");
+	background-image: linear-gradient(rgba(11,135,147,0.33), rgba(54,0,51,0.8)),url("img/img_03.jpg");
+/*	background-image: linear-gradient(to top, #360033, #0b8793),url("img/img_03.jpg");*/
 	/*permet de garder le fond fixe quand on scroll la page*/
 	background-attachment: fixed;
 	margin: 5% auto;
